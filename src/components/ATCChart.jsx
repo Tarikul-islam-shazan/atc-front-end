@@ -78,7 +78,7 @@ export default function ATCChart({
     };
 
     socket.emit("ATC", emitPayload, async (status) => {
-      console.log("Message sent : " + status);
+      //console.log("Message sent : " + status);
     });
   };
 
